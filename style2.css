@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+.main-title {
+  margin-top: 130px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cards {
+  height: auto;
+  min-height: 300px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 20px;
+
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cards:hover {
+  box-shadow: 0 6px 25px rgba(0, 123, 255, 0.4);
+  transform: translateY(-5px);
+}
+
+.title-cards {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.text-cards {
+  text-align: justify;
+  padding: 0 10px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.btn-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: auto;
+}
+
+.btn-cards button {
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #3571e9;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-cards button:hover {
+  background-color: #2f65d2;
+  transform: scale(1.05);
+}
+
+
+
+.product-detail {
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003366;
+  font-weight: bold;
+}
+
+.main-div {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  outline: 2px solid rgba(0, 123, 255, 0.6);
+  outline-offset: 5px;
+  background-color: #f5f9ff;
+  box-shadow: 0 8px 30px rgba(0, 123, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+  padding: 30px;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  margin-top: 40px;
+  border-radius: 8px;
+  border: 1px solid #007bff;
+  padding: 10px;
+}
+
+.buy-btn {
+  width: 160px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buy-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .main-div {
+    margin-top: 60px;
+    padding: 20px;
+  }
+
+  .test {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .buy-btn {
+    width: 100%;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+}
+
